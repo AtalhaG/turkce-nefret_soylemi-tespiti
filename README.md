@@ -1,0 +1,1 @@
+# turkce-nefret_soylemi-tespiti
