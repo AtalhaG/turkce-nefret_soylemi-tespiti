@@ -3,6 +3,7 @@
 Türkçe metinlerde nefret söylemi / saldırgan içerik tespiti yapan bir doğal dil işleme (NLP) projesi. Klasik bir makine öğrenmesi baseline'ı ile transformer tabanlı bir derin öğrenme modeli karşılaştırılmış, en iyi model Hugging Face Spaces üzerinde canlıya alınmıştır.
 
 🔗 **Canlı Demo:** [Hugging Face Spaces üzerinde dene]
+
 https://huggingface.co/spaces/AtalhaG/turkce-nefret-soylemi-tespiti
 
 ---
