@@ -27,6 +27,18 @@ Bu proje, bir metnin **nefret söylemi içerip içermediğini** (ikili sınıfla
 - Gradio (arayüz)
 - Hugging Face Hub & Spaces (model barındırma ve dağıtım)
 
+## 📊 Sonuçlar
+
+| Model | Accuracy | Precision (Nefret) | Recall (Nefret) | F1-score (Nefret) |
+|---|---|---|---|---|
+| TF-IDF + Logistic Regression | 0.88 | 0.83 | 0.79 | 0.81 |
+| BERTurk (fine-tuned) | **0.94** | **0.93** | **0.88** | **0.90** |
+
+BERT, TF-IDF baseline'ına kıyasla accuracy'de %6, nefret söylemi F1-score'unda 
+%9 iyileşme sağladı. Özellikle Precision farkı (0.83 → 0.93) dikkat çekici: 
+BERT yanlış alarm (nötr metni nefret söylemi olarak işaretleme) oranını 
+belirgin biçimde düşürüyor.
+
 ## ⚠️ Sınırlılıklar
 
 - Model, eğitim verisindeki etiketleme kalitesine bağımlıdır; veri setindeki olası önyargılar (bias) model tahminlerine yansıyabilir.
